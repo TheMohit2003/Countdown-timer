@@ -1,14 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <title>Counter</title>
+  <link rel="stylesheet" href="styles.css">
+  <title>Countdown timer</title>
 </head>
+
 <body>
-  <div class="attribution"> 
-    Coded by <a href="">Mohit</a>.
+  <!-- introduction tagline -->
+  <section id="tagline">
+    <div class="container-1">
+      <p>
+        WE'RE LAUNCHING SOON.
+      </p>
+    </div>
+  </section>
+  <!-- timer cards components -->
+  <!-- days card -->
+
+  <div class="container-2">
+    <div class="component-card">
+      <div class="time-card">
+          <span id="days">00</span>
+      </div>
+      <div class="description">
+        <p>days</p>
+      </div>
+    </div>
+
+    <!-- hours card -->
+
+    <div class="component-card">
+      <div class="time-card">
+        <span id="hours">00</span>
+      </div>
+      <div class="description">
+        <p>hours</p>
+      </div>
+    </div>
+
+    <!-- minutes card -->
+
+    <div class="component-card">
+      <div class="time-card" id="minutes">
+        <span id="minutes">00</span>
+      </div>
+      <div class="description">
+        <p>minutes</p>
+      </div>
+    </div>
+
+    <!-- seconds card -->
+    <div class="component-card">
+      <div class="time-card" id="seconds">
+        <span id="seconds">00</span>
+      </div>
+      <div class="description">
+        <p>seconds</p>
+      </div>
+    </div>
+
   </div>
+  <!-- footer mountains and social icons -->
+  <section id="footer">
+    <div class="footer">
+      <img src="./images/pattern-hills.svg" alt="">
+    </div>
+  </section>
+  <script src="./app.js"></script>
 </body>
+
 </html>

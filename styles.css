@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@700&display=swap');
+
+* {
+    font-family: 'Red Hat Text', sans-serif;
+    margin: 0;
+}
+
+body {
+    background-color: HSL(234, 17%, 12%);
+    background-image: url(./images/bg-stars.svg);
+    box-sizing: border-box;
+    text-transform: uppercase;
+
+}
+
+.container-1 {
+    text-align: center;
+    color: white;
+}
+
+.container-1 p {
+    font-size: 16px;
+    margin: 100px;
+    letter-spacing: 4px;
+}
+
+
+.container-2 {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.component-card{
+    height:30vh;
+    width: 200px;
+    color: hsl(345, 95%, 68%);
+    margin:10px 25px;
+    display: block;
+}
+
+.component-card .time-card{
+    font-size: 8rem;
+    background-color: hsl(236, 21%, 26%);
+    text-align: center;
+    border-radius: 20px;
+}
+
+.component-card .description{
+    text-align: center;
+    color: hsl(237, 18%, 59%);
+    margin: 15px 0;
+    letter-spacing: 4.5px;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+
+
+#footer img {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+@media(max-width:1013px){
+    #footer img{
+        display: none;
+    }
+}
+
+@media (max-width:375px){
+    
+    .container-1 p{
+        margin: 80px;
+    }
+
+    .container-2{
+        margin-bottom:40px;
+    }
+
+    #footer img{
+        display: none;
+    }
+}
