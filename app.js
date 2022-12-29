@@ -43,32 +43,32 @@ function dateArgumentFormat() {
     let targetDate = prompt("please type in the date");
 
     // the if statement is added to provide the program a default value in case the user doesnot gives any input value to the prompt
-    if(targetDate==""){
+    if(targetDate==""|| targetDate===null){
         targetDate=10;
     }
     let targetMonth = prompt("type in the month");
     // the if statement is added to provide the program a default value in case the user doesnot gives any input value to the prompt
-    if(targetMonth==""){
+    if(targetMonth==""|| targetMonth===null){
         targetMonth=5;
     }
     let targetYear = prompt("year");
     // the if statement is added to provide the program a default value in case the user doesnot gives any input value to the prompt
-    if(targetYear==""){
+    if(targetYear=="" || targetYear===null){
         targetYear=2023;
     }
     let timeHour = prompt("hours");
     // the if statement is added to provide the program a default value in case the user doesnot gives any input value to the prompt
-    if(timeHour==""){
+    if(timeHour=="" || timeHour===null){
         timeHour=12;
     }
     let timeMinutes = prompt("minutes");
     // the if statement is added to provide the program a default value in case the user doesnot gives any input value to the prompt
-    if(timeMinutes==""){
+    if(timeMinutes==""|| timeMinutes==null){
         timeMinutes=59;
     }
     let timeSeconds = prompt("seconds");
     // the if statement is added to provide the program a default value in case the user doesnot gives any input value to the prompt
-    if(timeSeconds=""){
+    if(timeSeconds=""|| timeSeconds===null){
         timeSeconds=59;
     }
 
@@ -108,6 +108,7 @@ function timeCounter() {
         document.getElementById("demo").innerHTML = "Time out";
     }
 
+    doc
 
 }
 
