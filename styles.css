@@ -56,16 +56,23 @@ body {
     font-size: 14px;
 }
 
+#footer .icons img{
+    position: absolute;
+    bottom: 10px;
+    z-index: 1;
+    height: 100px;
+    width: 100px;
+    left: 200px;
+}
 
-
-#footer img {
+#footer .footer img {
     position: absolute;
     bottom: 0;
     width: 100%;
 }
 
 @media(max-width:1013px){
-    #footer img{
+    #footer .footer img{
         display: none;
     }
 }
