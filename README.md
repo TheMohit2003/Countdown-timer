@@ -8,7 +8,7 @@ This project takes inputs of date , month , year and the time as Countdown targe
 ![Countdown-timer](https://user-images.githubusercontent.com/99909551/210041485-5f64fd63-70d4-4abc-9d30-371f401badae.png)
 
 - For smaller viewport suck as mobile screens:
-![11233334](https://user-images.githubusercontent.com/99909551/210042267-78766bde-56cc-44c2-9d90-7a5837841fae.png)
+![11233334](https://user-images.githubusercontent.com/99909551/210042267-78766bde-56cc-44c2-9d90-7a5837841fae.png =510*180)
 
 
 # Video
