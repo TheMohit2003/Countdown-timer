@@ -1,7 +1,7 @@
 
 # Countdown timer 
 
-This project takes inputs of date , month , year and the time as Countdown target.
+This project takes inputs of date , month , year and the time as Countdown target. [Click here to view the page live](https://themohit2003.github.io/Countdown-timer/)
 
 # Image
 - For bigger viewport such as that of laptop screem:
